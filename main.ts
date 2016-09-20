@@ -1,7 +1,7 @@
 function display(x:number):void {
     var str : string = "";
 
-        for(var j=1;j<=x;j++) {
+        for(var j=1;j<x+1;j++) {
             str = "";
             for(var k=1;k<=x-j;k++){
                 str+=" ";
