@@ -3,12 +3,12 @@ function display(x) {
     for (var j = 0; j < x; j++) {
         str = "";
         for (var k = 0; k < x - j - 1; k++) {
-            str += "";
+            str += "　";
+            for (var i = 0; i < 2 * j + 1; i++) {
+                str += "*";
+            }
         }
-        for (var i = 0; i < 2 * j + 1; i++) {
-            str += "*";
-        }
+        console.log(str);
     }
-    console.log(str + "\n");
 }
-display(5);
+display(3);
